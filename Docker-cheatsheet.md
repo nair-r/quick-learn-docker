@@ -1,5 +1,5 @@
-#Some basic docker commands:
-####(_just a beginner guide, building as I go..._)
+# Some basic docker commands:
+#### (_just a beginner guide, building as I go..._)
 --------------------------------------------------------------------------------
 
 **command**|**description**|**Notes**
@@ -28,7 +28,7 @@
 
 
 
-#Some useful definitions:
+# Some useful definitions:
 
 **image**:  a lightweight, stand-alone, executable package that includes everything needed to run a piece of software
 
