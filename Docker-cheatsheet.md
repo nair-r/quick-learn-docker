@@ -8,7 +8,7 @@
 `docker run <imagename>`| runs the file called imagename
 `docker build -t hellofromdocker .`| builds a docker image as per the 'Dockerfile' specs present in the dir (as specified by the **.**)it is executed from|-t is a tag and hellofromdocker is the name of the image we built 
 `docker run -p 4000:8080 hellofromdocker`|  # Run "hellofromdocker" mapping port 4000 to 8080
-`docker run -d -p 4000:8080 hellofromdocker`| same as above bur runs docker in detached mode and returns the user back to the terminal prompt|Also spits out long Container ID
+`docker run -d -p 4000:8080 hellofromdocker`| same as above but runs docker in detached mode and returns the user back to the terminal prompt|Also spits out long Container ID
 `docker images`| list all the images present in your machine’s local Docker image registry|
 `docker image rm <image id>`|Remove specified image from local machine
 `CTRL+C` in your terminal to quit|quits out of currently running docker container
